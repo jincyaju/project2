@@ -1,0 +1,26 @@
+.space{
+    width:700px;
+    height: 350px;
+}
+.sp{
+
+    margin-left: 50px;
+    margin-top: 50px;
+    width:100px;
+    height: 100px;
+}
+.bcol{
+    background-color: rgb(73, 25, 119);
+    margin-left: -50px;
+    width: 200px;
+    border-radius: 30px;
+    border: none;
+    height: 60px;
+    color: white;
+    /* padding: 5px; */
+    
+}
+.bcol:hover{
+    background-color: rgb(180, 140, 174);
+    color: darkviolet;
+}
