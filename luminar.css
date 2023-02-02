@@ -9,7 +9,29 @@
     width:100%;
     height: 100px;
 }
+.sp1{
+    margin-left: -100px;
+    margin-top: 50px;
+    width:100%;
+    height: 100px;
+}
+.center{
+    padding: 30px;
+    margin-top: 50px;
+    text-align: center;
+}
 .bcol{
+    background-color: rgb(73, 25, 119);
+    margin-left: -40px;
+    width: 200px;
+    border-radius: 30px;
+    border: none;
+    height: 60px;
+    color: white;
+    padding: 5px;
+    
+}
+.bcolA{
     background-color: rgb(73, 25, 119);
     margin-left: -50px;
     width: 200px;
@@ -19,6 +41,9 @@
     color: white;
     padding: 5px;
     
+}
+span{
+    color:rgb(145, 107, 182);
 }
 .bcol1{
     background-color: rgb(73, 25, 119);
@@ -34,4 +59,50 @@
 .bcol:hover{
     background-color: rgb(180, 140, 174);
     color: darkviolet;
+}
+
+
+.boxhov{
+    /* height: 200px; */
+    width: 100%;
+    /* background-color: red; */
+    /* margin-top: 200px; */
+    /* margin-left: 100px; */
+    /* animation: anim 1s ease-in 1s infinite; */
+    transition: 1s ease-in-out;
+    
+}
+.boxhov:hover{
+    transform: translateY(10px);
+}
+
+
+.view{
+    background-color: rgb(73, 25, 119);
+    margin-left: 5px;
+    width: 50%;
+    /* border-radius: 30px; */
+    border: none;
+    height: 40px;
+    color: white;
+    padding: 1px;
+    
+}
+
+.view1{
+    align-items: center;
+    background-color: white;
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-bottom: 50px;
+    width: 30%;
+    border-radius: 30px;
+    border: 2px solid darkorchid;
+    height: 50px;
+    color:  rgb(73, 25, 119);
+    padding: 3px;
+    
+}
+.awe{
+    align-items: center;
 }
