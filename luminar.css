@@ -1,5 +1,5 @@
 .space{
-    width:700px;
+    width: 100%;
     height: 350px;
 }
 .sp{
@@ -16,6 +16,17 @@
     border-radius: 30px;
     border: none;
     height: 60px;
+    color: white;
+    padding: 5px;
+    
+}
+.bcol1{
+    background-color: rgb(73, 25, 119);
+    margin-top: 10px;
+    width: 150px;
+    
+    border: none;
+    height: 30px;
     color: white;
     /* padding: 5px; */
     
